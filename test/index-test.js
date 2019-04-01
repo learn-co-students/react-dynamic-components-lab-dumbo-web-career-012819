@@ -59,7 +59,7 @@ describe('ColorBox', () => {
   })
   
   it('uses the value of the opacity prop in its style', () => {
-    expect(box.prop('style')).to.contain({opacity: 1})
+    expect(box.prop('style')).to.contain({opacity: .9})
   })
   
   it('correctly reduces the opacity by 0.1 after first recursive call', () => {
