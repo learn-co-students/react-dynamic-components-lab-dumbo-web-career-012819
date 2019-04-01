@@ -18,9 +18,9 @@
     "webpack": "^3.11.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "yarn run react-scripts start",
     "build": "react-scripts build",
-    "test": "mocha -w test/helpers.js test/*.js",
+    "test": "yarn run mocha -w test/helpers.js test/*.js",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
